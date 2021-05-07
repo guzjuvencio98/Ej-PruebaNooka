@@ -1,0 +1,90 @@
+
+
+img {
+  justify-content: center;
+}
+
+#hamburguerMenu {
+  height: 5px;
+  background-color: blue;
+  margin: 6px 0;
+  color: blue;
+}
+
+.navbar-toggler {
+  color: white;
+  /*background-color: white;*/
+  padding: 5px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  justify-content: left;
+  margin-left: -4%;
+}
+
+
+@media (min-width: 900px){
+  #menu {
+    display: none;
+  }
+
+  
+
+  #imgUsuarioDesk {
+    width: 52px;
+    height: 20px;
+    margin-bottom: -1%;
+  }
+
+  #numArticulos {
+    display: none;
+  }
+
+  #navsMenu {
+    padding-top: 15px;
+    padding-left: 15%;
+  }
+
+  #altHeader {
+    height: 0px;
+    margin-top: 0%;
+    padding-bottom: 4%;
+  }
+
+  #imgArticulos {
+    display: none;
+  }
+  
+  #imgLogo {
+    
+    margin-right: 100%;
+   
+  }
+
+  #imgLogoDesk {
+    margin-right: 100%;
+  }
+
+  #buscador {
+    margin-left: 24%;
+    margin-right: -50%;
+    margin-bottom: 4.5%;
+    height: 110px;
+
+  }
+
+  #imgUsuario {
+    display: none;
+    margin-right: 0px;
+    float: right;
+    margin-bottom: 4.5%;
+    
+  }
+
+  #imgCarrito {
+    display: none;
+    float: right;
+    margin-bottom: 4.5%;
+    align-content: flex-end;
+  }
+
+}
